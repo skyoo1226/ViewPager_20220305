@@ -3,6 +3,7 @@ package com.neppplus.viewpager_20220305.adapters
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentStatePagerAdapter
+import com.neppplus.viewpager_20220305.fragments.MyHelloFragment
 import com.neppplus.viewpager_20220305.fragments.MyInfoFragment
 import com.neppplus.viewpager_20220305.fragments.MyNameFragment
 
@@ -20,7 +21,9 @@ class MainViewPagerAdapter(fm : FragmentManager) : FragmentStatePagerAdapter( fm
         else if (position == 1) {
             return MyInfoFragment()
         }
-        else
+        else {
+            return MyHelloFragment()
+        }
 
     }
 }
