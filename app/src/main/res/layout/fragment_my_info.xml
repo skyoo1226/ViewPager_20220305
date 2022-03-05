@@ -9,8 +9,6 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:textSize="30dp"
-        android:text="유석균"/>
-
-
+        android:text="서울시 동대문구"/>
 
 </LinearLayout>

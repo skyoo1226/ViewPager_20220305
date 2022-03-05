@@ -7,14 +7,14 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.neppplus.viewpager_20220305.R
 
-class MyNameFragment : Fragment() {
+class MyInfoFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_my_name, container, false)
+        return inflater.inflate(R.layout.fragment_my_info, container, false)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
